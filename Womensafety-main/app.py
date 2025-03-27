@@ -14,6 +14,7 @@ from sso import get_google_auth_url, handle_google_callback
 
 # Load environment variables
 load_dotenv()
+# hello
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
